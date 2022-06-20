@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PRJ/MyCloset/app/src/main/res/layout/a_activity_home.xml" value="0.30055579307396324" />
+        <entry key="..\:/PRJ/MyCloset/app/src/main/res/layout/b_activity_style.xml" value="0.30055579307396324" />
+        <entry key="..\:/PRJ/MyCloset/app/src/main/res/layout/c_activity_closet.xml" value="0.22" />
+        <entry key="..\:/PRJ/MyCloset/app/src/main/res/layout/c_clothes_items.xml" value="0.30055579307396324" />
+        <entry key="..\:/PRJ/MyCloset/app/src/main/res/layout/d_activity_diary.xml" value="0.30055579307396324" />
+        <entry key="..\:/PRJ/MyCloset/app/src/main/res/layout/e_activity_main.xml" value="0.30055579307396324" />
+        <entry key="..\:/PRJ/MyCloset/app/src/main/res/xml/external.xml" value="0.1" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.185" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/drawable/button_shape.xml" value="0.153" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/drawable/ic_button_add_clothes.xml" value="0.365" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/drawable/ic_button_save.xml" value="0.2845" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/drawable/ic_ci_calendar.xml" value="0.316" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/drawable/ic_codicon_graph.xml" value="0.316" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/drawable/ic_home_main.xml" value="0.3025" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/drawable/ic_home_main_closetdiary.xml" value="0.3025" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/drawable/ic_home_main_day.xml" value="0.3025" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/drawable/ic_home_main_menutab.xml" value="0.3025" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/drawable/ic_home_main_recent_coordinate.xml" value="0.3025" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/drawable/ic_home_main_tabbar_closet.xml" value="0.365" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/drawable/ic_home_main_tabbar_diary.xml" value="0.368" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/drawable/ic_home_main_today_.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/drawable/ic_launcher_background.xml" value="0.185" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/drawable/ic_splash_screen.xml" value="0.185" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/drawable/ic_weather_afternoon.xml" value="0.1275" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/drawable/ic_weather_dawn.xml" value="0.1275" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/drawable/ic_weather_night.xml" value="0.1275" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/layout/a_activity_home.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/layout/activity_closet.xml" value="0.22" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/layout/activity_community.xml" value="0.18115336397826995" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/layout/activity_diary.xml" value="0.22" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/layout/activity_main.xml" value="0.14074074074074075" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/layout/activity_style.xml" value="0.18115336397826995" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/layout/b_activity_style.xml" value="0.271532184950136" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/layout/c_activity_closet.xml" value="0.22" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/layout/c_activity_closet_add_clothes.xml" value="0.271532184950136" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/layout/c_clothes_items.xml" value="0.17175094024237358" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/layout/d_activity_diary.xml" value="0.3504079782411605" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/layout/styles.xml" value="0.15096251266464034" />
+        <entry key="..\:/Users/Amy/AndroidStudioProjects/MyCloset/app/src/main/res/menu/menu_category.xml" value="0.37280889268918344" />
+        <entry key="app/src/main/res/layout/c_activity_closet.xml" value="0.1" />
+        <entry key="app/src/main/res/xml/external.xml" value="0.15006412997007268" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

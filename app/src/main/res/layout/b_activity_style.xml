@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:orientation="vertical">
+
+    <!-- Closet Diary -->
+    <TextView
+        android:id="@+id/closet_diary"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:autoSizeTextType="uniform"
+
+        android:gravity="center_horizontal|center"
+
+        android:text="@string/closet_diary"
+        android:textAppearance="@style/closet_diary" />
+
+    <!-- Weather -->
+    <LinearLayout
+        android:id="@+id/weatherBox"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp">
+
+        <View
+            android:id="@+id/weatherBox_temperature"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000" />
+
+        <View
+            android:id="@+id/weatherBox_location"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000" />
+
+    </LinearLayout>
+
+    <!-- Yesterday, Today, Tomorrow -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/day"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:background="#00000000">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView_day"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- yesterday -->
+                <ImageView
+                    android:id="@+id/yesterday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:src = "@drawable/today"
+                    />
+
+                <!-- today -->
+                <ImageView
+                    android:id="@+id/today"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:src = "@drawable/yesterday"
+                    />
+
+                <ImageView
+                    android:id="@+id/tomorrow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:src = "@drawable/today"
+                    />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Recent -->
+    <LinearLayout
+        android:id="@+id/recentBox"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/recentBox_clothes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:background="#00000000" />
+
+        <View
+            android:id="@+id/recentBox_coordinate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:background="#00000000" />
+
+    </LinearLayout>
+
+    <!-- tab_bar -->
+    <LinearLayout
+        android:id="@+id/tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <!-- home -->
+        <ImageButton
+            android:id="@+id/home_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:src="@drawable/ic_button_home"
+            android:background="#00ff0000"/>
+
+        <!-- style -->
+        <ImageButton
+            android:id="@+id/style_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:src="@drawable/ic_button_style_dark"
+            android:background="#00ff0000"/>
+
+        <!-- closet -->
+        <ImageButton
+            android:id="@+id/closet_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:src="@drawable/ic_button_my_closet"
+            android:background="#00ff0000"/>
+
+        <!-- diary -->
+        <ImageButton
+            android:id="@+id/diary_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:src="@drawable/ic_button_user"
+            android:background="#00ff0000"/>
+    </LinearLayout>
+
+</LinearLayout>
